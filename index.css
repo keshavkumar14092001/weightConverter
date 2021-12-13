@@ -1,0 +1,75 @@
+/* CSS RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+#input-weight {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output .cards {
+    border: 2px solid #fff;
+    width: 30%;
+    height: 95px;
+    margin: 10px 0px;
+}
+
+.output .cards .cards-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 25px;
+}
+
+.cards-1 {
+    background-color: rgb(173, 8, 8);
+}
+
+.cards-2 {
+    background-color: rgb(173, 173, 2);
+}
+
+.cards-3 {
+    background-color: green;
+}
+
+.cards-4 {
+    background-color: rgb(5, 5, 177);
+}
