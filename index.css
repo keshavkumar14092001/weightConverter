@@ -1,6 +1,7 @@
 /* CSS RESET */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -72,4 +73,18 @@ body {
 
 .cards-4 {
     background-color: rgb(5, 5, 177);
+}
+
+/* Making it Responsive */
+
+@media (max-width: 440px) {
+
+    .output .cards {
+        width: 70%;
+        height: 90px;
+    }
+
+    #input-weight {
+        width: 80%;
+    }
 }
